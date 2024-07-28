@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image" href="logo.png" />
+    <title>PortFolio Website</title>
+    <style>
+        ::selection {
+            color: white;
+            background-color: orangered;
+        }
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+
+<body class="overflow-hidden">
+    <main class="h-[100vh] w-[100%]">
+        <nav class="flex h-[11vh] rounded-[50px] bg-white shadow-md">
+            <div class="leftnav flex w-[50%] items-center justify-center">
+                <img class="w-[70px] h-[70px] rounded-[50%] border-[5px] border-black"
+                    src="https://lh3.googleusercontent.com/a/ACg8ocIkeBMWMYYtXXJ3MpckFPSrlJjucM4wKY0ohv3alCT8kcpJhNFZ=s360-c-no"
+                    alt="" />
+            </div>
+            <ul class="rightnav flex w-[50%] items-center justify-around">
+                <li class="underline-offset-8 font-semibold tracking-wide text-zinc-500   hover:underline"><a href="#">Home</a></li>
+                <li class="underline-offset-8 font-semibold tracking-wide  text-zinc-500  hover:underline"><a href="#">About</a></li>
+                <li class="underline-offset-8 font-semibold tracking-wide  text-zinc-500  hover:underline"><a href="#">Skills</a></li>
+                <li class="underline-offset-8 font-semibold tracking-wide  text-zinc-500  hover:underline"><a href="#">Education</a>
+                </li>
+                <li class="underline-offset-8 font-semibold tracking-wide  text-zinc-500  hover:underline"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="content w-[100%] h-[90%] relative">
+
+            <div class="background h-[100%] w-[100%] relative">
+                <div class="circle h-[400px] w-[400px] bg-green-500 absolute rounded-full"></div>
+                <div class="cube h-[150px] w-[150px] bg-red-500 absolute top-0 right-[15%] "></div>
+                <div class="bigcube h-[300px] w-[300px] bg-blue-500 absolute bottom-[7%] right-0 "></div>
+                <div class="centercircle h-[200px] w-[200px] bg-red-500 absolute bottom-0 right-[50%] rounded-full "></div>
+            </div>
+
+            <div class="foreground h-[70%] w-[90%] bg-white flex absolute top-[15%] right-[5%] border-2 shadow-md transition-all rounded-0 transition-all ease-in-out delay-100 hover:rounded-[30px]  ">
+                <div class="maincontent flex h-[100%] w-[100%] rounded-[50px]">
+                    <div class="left w-[50%] flex-col content-center justify-start p-[70px]">
+                        <h1 class="text-[4vw] font-extrabold text-[orangered]">Hi There,</h1>
+                        <h1 class="text-[4vw] font-bold">I'm Aniket Meena</h1>
+                        <h2 class="text-[2vw] font-semibold italic">I Am Into Web Development.........</h2>
+                        <button
+                            class="duration-5000 mt-[6px] rounded-[50px] border-[1px] p-[10px] outline outline-offset-2 transition-all hover:outline-offset-0">
+                            <a href="https://www.google.com">
+                                <h3 class="text-[2vh] font-bold italic">About Me</h3>
+                            </a>
+                        </button>
+                    </div>
+                    <div class="right flex w-[50%] items-center">
+                        <div class="container flex-col content-center ">
+                            <div class="row1 flex justify-center items-end">
+                                <div class="box1 h-[150px] w-[150px] flex justify-center items-end ">
+                                    <div class="h-[100px] w-[100px] rounded-full bg-orange-500 transition duration-300 hover:scale-110 hover:delay-150"></div>
+                                </div>
+                                <div class="triangleParent flex items-end relative h-[180px]">
+                                    <div class="box2 h-[150px] w-[150px] bg-blue-500 transition duration-300  hover:scale-110 hover:delay-150"></div>
+                                    <div class="box3 h-[150px] w-[150px] bg-red-500 transition duration-300  hover:scale-110 hover:delay-150"></div>
+                                    <div
+                                        class="triangle w-[300px] h-[0px] absolute bottom-0 right-0 border-green-500 border-b-[250px] border-r-[150px] border-r-transparent border-l-[150px] border-l-transparent transition duration-300 rounded-[5px] hover:scale-110 hover:delay-150 ">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row2 flex justify-center">
+                                <div class="box4 h-[150px] w-[150px] bg-green-500 transition duration-300  hover:scale-110 hover:delay-150"></div>
+                                <div class="box5 h-[150px] w-[150px] bg-red-500 transition duration-300  hover:scale-110 hover:delay-150 "></div>
+                                <div class="box5 h-[150px] w-[150px] bg-blue-500 transition duration-300  hover:scale-110 hover:delay-150"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>
+
+<!-- <h1>Aniket</h1>
+<h1>Abhishek</h1> -->
