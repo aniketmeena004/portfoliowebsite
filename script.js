@@ -42,13 +42,27 @@ education.addEventListener('click', function() {
     handleTouch('education');
 });
 
-contact.addEventListener('click', function() {
-    handleTouch('contact');
-});
 
-about.addEventListener('click', function() {
-    handleTouch('about');
-});
+
+function openGmail() {
+    const recipient = 'aniketmeena004@gmail.com'; // Replace with the desired recipient email address
+    const gmailComposeUrl = `https://mail.google.com/mail/?view=cm&to=${encodeURIComponent(recipient)}`;
+    window.open(gmailComposeUrl, '_blank');
+}
+async function copyToClipboard() {
+    const textToCopy = '+919821582939'; // Text you want to copy
+
+    try {
+        await navigator.clipboard.writeText(textToCopy);
+        // Optional: Alert or provide feedback
+        alert('Mobile Number copied to clipboard!');
+    } catch (err) {
+        console.error('Failed to copy text: ', err);
+    }
+}
+
+
+
 
 
 
