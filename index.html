@@ -27,7 +27,7 @@
 
 <body class="overflow-hidden">
     <main class="h-[100vh] w-[100%]">
-        <nav class="flex h-[11vh] rounded-[50px] bg-white shadow-md z-50 border-b-1">
+        <nav class="flex h-[11vh] rounded-[50px] bg-white shadow-md z-50 relative border-b-1">
             <div class="leftnav flex w-[50%] items-center justify-center
             max-[462px]:w-[30%]">
                 <img class="w-[70px] h-[70px] rounded-full border-[5px] border-black
@@ -37,34 +37,34 @@
             </div>
             <ul class="rightnav flex w-[50%] items-center justify-around
             max-[462px]:w-[70%]">
-                <li class="underline-offset-8 font-semibold tracking-wide  text-zinc-500  hover:underline
+                <li class="underline-offset-2 font-semibold tracking-wide  text-zinc-500  hover:underline
                     max-[768px]:text-xs"><a id="home" href="#">Home</a></li>
-                <li class="underline-offset-8 font-semibold tracking-wide  text-zinc-500  hover:underline
+                <li class="underline-offset-2 font-semibold tracking-wide  text-zinc-500  hover:underline
                     max-[768px]:text-xs"><a id="skills" href="#">Skills</a></li>
-                <li class="underline-offset-8 font-semibold tracking-wide  text-zinc-500  hover:underline
+                <li class="underline-offset-2 font-semibold tracking-wide  text-zinc-500  hover:underline
                     max-[768px]:text-xs"><a id="education" href="#">Education</a>
                 </li>
-                <li class="underline-offset-8 relative font-semibold tracking-wide text-zinc-500 hover:underline max-[768px]:text-xs group">
+                <li class="underline-offset-2 relative font-semibold tracking-wide text-zinc-500 hover:underline max-[768px]:text-xs group">
                     <a id="contact" href="#">Contact</a>
-                    <div class="dropdown hidden border-t-[10px] border-transparent group-hover:block w-[200px] h-[50px] bg-zinc-400 rounded-[3px] absolute top-[100%] right-[-40px]">
-                        <ul class="flex  justify-around content-center">
+                    <div class="dropdown hidden border-transparent pt-[10%] group-hover:block w-[150px] h-[40px] bg-zinc-400 rounded-[3px] absolute top-[100%] right-[0px]">
+                        <ul class="flex w-[100%] h-[100%] items-center justify-around">
                             <li>
-                                <button class="border-0 border-transparent pointer" onclick="openGmail()">
+                                <button  class= "border-0 border-transparent pointer" onclick="openGmail()">
                                     <img class="w-[25px] h-[25px]" src="gmail.png" alt="">
                                 </button>
                             </li>
                             <li>
-                                <button class="border-0 border-transparent pointer" onclick="window.open('https://github.com/aniketmeena004', '_blank')">
+                                <button  class= "border-0 border-transparent pointer" onclick="window.open('https://github.com/aniketmeena004', '_blank')">
                                     <img class="w-[25px] h-[25px]" src="github.png" alt="">
                                 </button>
                             </li>
                             <li>
-                                <button class="border-0 border-transparent pointer" onclick="window.open('https://www.linkedin.com/in/aniketmeena004', '_blank')">
+                                <button  class= "border-0 border-transparent pointer" onclick="window.open('https://www.linkedin.com/in/aniketmeena004', '_blank')">
                                     <img class="w-[25px] h-[25px]" src="linkedin.png" alt="">
                                 </button>
                             </li>
                             <li>
-                                <button class="border-0 border-transparent pointer" onclick="copyToClipboard()">
+                                <button  class= "border-0 border-transparent pointer" onclick="copyToClipboard()">
                                     <img class="w-[25px] h-[25px]" src="telephone.png" alt="">
                                 </button>
                             </li>
