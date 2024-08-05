@@ -38,14 +38,39 @@
             <ul class="rightnav flex w-[50%] items-center justify-around
             max-[462px]:w-[70%]">
                 <li class="underline-offset-8 font-semibold tracking-wide  text-zinc-500  hover:underline
-                max-[768px]:text-xs"><a id="home" href="#">Home</a></li>
+                    max-[768px]:text-xs"><a id="home" href="#">Home</a></li>
                 <li class="underline-offset-8 font-semibold tracking-wide  text-zinc-500  hover:underline
-                max-[768px]:text-xs"><a id="skills" href="#">Skills</a></li>
+                    max-[768px]:text-xs"><a id="skills" href="#">Skills</a></li>
                 <li class="underline-offset-8 font-semibold tracking-wide  text-zinc-500  hover:underline
-                max-[768px]:text-xs"><a id="education" href="#">Education</a>
+                    max-[768px]:text-xs"><a id="education" href="#">Education</a>
                 </li>
-                <li class="underline-offset-8 font-semibold tracking-wide  text-zinc-500  hover:underline
-                max-[768px]:text-xs"><a id="contact" href="#">Contact</a></li>
+                <li class="underline-offset-8 relative font-semibold tracking-wide text-zinc-500 hover:underline max-[768px]:text-xs group">
+                    <a id="contact" href="#">Contact</a>
+                    <div class="dropdown hidden border-t-[10px] border-transparent group-hover:block w-[200px] h-[50px] bg-zinc-400 rounded-[3px] absolute top-[100%] right-[-40px]">
+                        <ul class="flex  justify-around content-center">
+                            <li>
+                                <button class="border-0 border-transparent pointer" onclick="openGmail()">
+                                    <img class="w-[25px] h-[25px]" src="gmail.png" alt="">
+                                </button>
+                            </li>
+                            <li>
+                                <button class="border-0 border-transparent pointer" onclick="window.open('https://github.com/aniketmeena004', '_blank')">
+                                    <img class="w-[25px] h-[25px]" src="github.png" alt="">
+                                </button>
+                            </li>
+                            <li>
+                                <button class="border-0 border-transparent pointer" onclick="window.open('https://www.linkedin.com/in/aniketmeena004', '_blank')">
+                                    <img class="w-[25px] h-[25px]" src="linkedin.png" alt="">
+                                </button>
+                            </li>
+                            <li>
+                                <button class="border-0 border-transparent pointer" onclick="copyToClipboard()">
+                                    <img class="w-[25px] h-[25px]" src="telephone.png" alt="">
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
         </nav>
         <div class="content w-[100%] h-[90%] relative">
